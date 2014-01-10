@@ -28,7 +28,7 @@ while (<STDIN>)
    
     print $line, "\n";
     my $newline = join( " ", @$raRes);
-    $newline =~s/,/\n/g;
+    $newline =~s/, ?/\n/g;
     print $newline, "\n";
 }
 
