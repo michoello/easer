@@ -11,7 +11,7 @@ use strict;
 
 my $fh;
 
-my $path = join(' ', @ARGV) || "";
+my $path = join(' ', @ARGV) || ".";
 
 $path =~s/(\/)+/\\/g; $path =~s/(\\)+/$1/g;
 
