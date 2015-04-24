@@ -2,7 +2,7 @@
 
 @if "%_echo%"=="" echo off
 
-perl.exe -w -x %~f0 %*
+perl.exe -Ic:\cygwin64\lib\perl5\5.14 -w -x %~f0 %*
 exit /b
 
 #!perl
